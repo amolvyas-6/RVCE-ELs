@@ -1,0 +1,3 @@
+2025-12-21 16:47:46 - inference - INFO - Loaded model from ./checkpoints/best_model.pth
+2025-12-21 16:53:29 - inference - INFO - Accuracy: 72.84%%, EER: 0.1529
+2026-01-23 12:54:36 - inference - INFO - Loaded model from ./checkpoints/best_model.pth

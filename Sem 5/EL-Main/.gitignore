@@ -1,0 +1,6 @@
+.venv
+.env
+
+node_modules
+package-lock.json
+backend_lang/civil_criminal_model/

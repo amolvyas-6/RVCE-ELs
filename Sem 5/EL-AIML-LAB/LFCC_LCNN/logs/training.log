@@ -1,0 +1,17 @@
+2025-12-21 01:10:03 - train - INFO - Number of Training samples: 50568 | Number of Evaluation samples: 37693
+2025-12-21 01:10:04 - train - INFO - Using device: cuda
+2025-12-21 01:10:56 - train - INFO - Epoch [1/10] - Train_Loss: 0.3212, Eval_Loss: 0.4395, Accuracy: 81.15%%, EER: 0.0996, LR: 5.00e-04
+2025-12-21 01:10:56 - train - INFO - Best model saved with accuracy: 81.15%%
+2025-12-21 01:11:53 - train - INFO - Epoch [2/10] - Train_Loss: 0.2120, Eval_Loss: 0.2578, Accuracy: 90.93%%, EER: 0.0897, LR: 5.00e-04
+2025-12-21 01:11:53 - train - INFO - Best model saved with accuracy: 90.93%%
+2025-12-21 01:12:50 - train - INFO - Epoch [3/10] - Train_Loss: 0.1794, Eval_Loss: 0.3163, Accuracy: 90.25%%, EER: 0.0816, LR: 5.00e-04
+2025-12-21 01:13:47 - train - INFO - Epoch [4/10] - Train_Loss: 0.1555, Eval_Loss: 0.2189, Accuracy: 91.95%%, EER: 0.0804, LR: 5.00e-04
+2025-12-21 01:13:47 - train - INFO - Best model saved with accuracy: 91.95%%
+2025-12-21 01:14:45 - train - INFO - Epoch [5/10] - Train_Loss: 0.1395, Eval_Loss: 0.2751, Accuracy: 85.07%%, EER: 0.0810, LR: 5.00e-04
+2025-12-21 01:15:43 - train - INFO - Epoch [6/10] - Train_Loss: 0.1299, Eval_Loss: 0.2506, Accuracy: 86.23%%, EER: 0.0866, LR: 5.00e-04
+2025-12-21 01:16:41 - train - INFO - Epoch [7/10] - Train_Loss: 0.1165, Eval_Loss: 0.2208, Accuracy: 87.86%%, EER: 0.0860, LR: 5.00e-04
+2025-12-21 01:17:39 - train - INFO - Epoch [8/10] - Train_Loss: 0.0860, Eval_Loss: 0.3304, Accuracy: 88.92%%, EER: 0.0721, LR: 2.50e-04
+2025-12-21 01:18:37 - train - INFO - Epoch [9/10] - Train_Loss: 0.0722, Eval_Loss: 0.2928, Accuracy: 88.48%%, EER: 0.0695, LR: 2.50e-04
+2025-12-21 01:19:35 - train - INFO - Epoch [10/10] - Train_Loss: 0.0641, Eval_Loss: 0.2654, Accuracy: 91.98%%, EER: 0.0752, LR: 2.50e-04
+2025-12-21 01:19:35 - train - INFO - Best model saved with accuracy: 91.98%%
+2025-12-21 01:19:35 - train - INFO - Model has 231938 trainable parameters.
