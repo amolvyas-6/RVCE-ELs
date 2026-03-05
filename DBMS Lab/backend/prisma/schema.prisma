@@ -1,0 +1,89 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Host {
+  id        Int      @id @default(autoincrement())
+  ip        String   @unique
+  createdAt DateTime @default(now())
+
+  srcFlows  Flow[]   @relation("SrcHost")
+  dstFlows  Flow[]   @relation("DstHost")
+}
+
+model Protocol {
+  id     Int    @id @default(autoincrement())
+  name   String @unique
+
+  flows  Flow[]
+}
+
+model Service {
+  id     Int    @id @default(autoincrement())
+  name   String @unique
+
+  flows  Flow[]
+}
+
+model Flow {
+  id            Int      @id @default(autoincrement())
+
+  srcHostId     Int
+  dstHostId     Int
+  protocolId    Int
+  serviceId     Int?
+
+  srcPort       Int
+  dstPort       Int
+  state         String
+
+  startTime     BigInt
+  endTime       BigInt
+
+  srcHost       Host     @relation("SrcHost", fields: [srcHostId], references: [id])
+  dstHost       Host     @relation("DstHost", fields: [dstHostId], references: [id])
+  protocol      Protocol @relation(fields: [protocolId], references: [id])
+  service       Service?  @relation(fields: [serviceId], references: [id])
+
+  metrics       FlowMetrics?
+  attackLabel   AttackLabel?
+}
+
+model FlowMetrics {
+  id          Int    @id @default(autoincrement())
+  flowId      Int    @unique
+
+  sbytes      Int
+  dbytes      Int
+  spkts       Int
+  dpkts       Int
+  sload       Float
+  dload       Float
+  sjit        Float?
+  djit        Float?
+  tcprtt      Float?
+  synack      Float?
+  ackdat      Float?
+
+  flow        Flow   @relation(fields: [flowId], references: [id])
+}
+
+model AttackLabel {
+  id        Int    @id @default(autoincrement())
+  flowId    Int    @unique
+  category  String?
+  label     Int
+
+  flow      Flow   @relation(fields: [flowId], references: [id])
+}

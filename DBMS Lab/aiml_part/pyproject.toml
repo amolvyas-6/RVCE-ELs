@@ -1,0 +1,11 @@
+[project]
+name = "aiml_part"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "nixtla>=0.7.2",
+    "pandas>=2.3.3",
+]

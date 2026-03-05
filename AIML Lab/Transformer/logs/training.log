@@ -1,0 +1,11 @@
+2025-12-21 01:41:22 - train - INFO - Number of Training samples: 50568 | Number of Evaluation samples: 37693
+2025-12-21 01:41:22 - train - INFO - Model has 6340610 trainable parameters.
+2025-12-21 01:41:22 - train - INFO - Using device: cuda
+2025-12-21 01:41:22 - train - INFO - Total training steps: 7905, Warmup steps: 790
+2025-12-21 01:43:39 - train - INFO - Epoch [1/5] - Train_Loss: 0.4380, Eval_Loss: 0.4564, Accuracy: 81.73%%, EER: 0.1882, LR: 9.70e-05
+2025-12-21 01:43:39 - train - INFO - Best model saved with accuracy: 81.73%%
+2025-12-21 01:46:23 - train - INFO - Epoch [2/5] - Train_Loss: 0.3545, Eval_Loss: 0.4604, Accuracy: 80.13%%, EER: 0.1822, LR: 7.50e-05
+2025-12-21 01:49:25 - train - INFO - Epoch [3/5] - Train_Loss: 0.3091, Eval_Loss: 0.4218, Accuracy: 83.31%%, EER: 0.1674, LR: 4.13e-05
+2025-12-21 01:49:25 - train - INFO - Best model saved with accuracy: 83.31%%
+2025-12-21 01:52:46 - train - INFO - Epoch [4/5] - Train_Loss: 0.2594, Eval_Loss: 0.4346, Accuracy: 83.65%%, EER: 0.1571, LR: 1.17e-05
+2025-12-21 01:56:00 - train - INFO - Epoch [5/5] - Train_Loss: 0.2287, Eval_Loss: 0.4272, Accuracy: 84.74%%, EER: 0.1508, LR: 0.00e+00
