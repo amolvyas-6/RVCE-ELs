@@ -1,0 +1,5 @@
+/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/SudokuSolver.dir
+/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/SudokuSolver_autogen_timestamp_deps.dir
+/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/SudokuSolver_autogen.dir

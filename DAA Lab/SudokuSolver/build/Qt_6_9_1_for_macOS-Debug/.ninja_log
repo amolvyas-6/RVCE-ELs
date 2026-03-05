@@ -1,0 +1,10 @@
+# ninja log v6
+1	369	1750571775382678700	SudokuSolver_autogen/timestamp	66b1b3ae074c5046
+1	369	1750571775382678700	SudokuSolver_autogen/mocs_compilation.cpp	66b1b3ae074c5046
+1	369	1750571775382678700	/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/SudokuSolver_autogen/timestamp	66b1b3ae074c5046
+1	369	1750571775382678700	/Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/SudokuSolver_autogen/mocs_compilation.cpp	66b1b3ae074c5046
+370	657	1750571775392333494	CMakeFiles/SudokuSolver.dir/sudokusolver.cpp.o	a18d09ff971458e8
+370	1073	1750571775392166910	CMakeFiles/SudokuSolver.dir/main.cpp.o	cb3a7a1cbaa0cf01
+370	1076	1750571775392048535	CMakeFiles/SudokuSolver.dir/SudokuSolver_autogen/mocs_compilation.cpp.o	57371acad016c1af
+370	1123	1750571775392249077	CMakeFiles/SudokuSolver.dir/mainwindow.cpp.o	be406823d2e5bde9
+1123	1208	1750571776144845654	SudokuSolver	149e7fc10bb9d7e5

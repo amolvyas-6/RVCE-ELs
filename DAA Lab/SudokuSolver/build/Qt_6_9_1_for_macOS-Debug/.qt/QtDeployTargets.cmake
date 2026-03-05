@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SudokuSolver_FILE /Users/gurudev/Downloads/SudokuSolver/build/Qt_6_9_1_for_macOS-Debug/SudokuSolver)
+set(__QT_DEPLOY_TARGET_SudokuSolver_TYPE EXECUTABLE)

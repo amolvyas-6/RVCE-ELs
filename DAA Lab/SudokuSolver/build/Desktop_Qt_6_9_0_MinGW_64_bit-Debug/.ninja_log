@@ -1,0 +1,10 @@
+# ninja log v6
+615	2400	7692902964066918	CMakeFiles/SudokuSolver.dir/main.cpp.obj	dd3c6bbbcbb64db5
+373	1257	7705444330008375	CMakeFiles/SudokuSolver.dir/sudokusolver.cpp.obj	b1f1f9a44d90ecc2
+12	218	7705450207711906	SudokuSolver_autogen/timestamp	6621cdd51a7e7c4b
+613	2433	7692902964037075	CMakeFiles/SudokuSolver.dir/SudokuSolver_autogen/mocs_compilation.cpp.obj	ca38a84bdf71650a
+12	218	7705450207711906	SudokuSolver_autogen/mocs_compilation.cpp	6621cdd51a7e7c4b
+219	3511	7705450209783545	CMakeFiles/SudokuSolver.dir/mainwindow.cpp.obj	64c4d98981c60b22
+12	218	7705450207711906	C:/Projects/SudokuSolver/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/SudokuSolver_autogen/timestamp	6621cdd51a7e7c4b
+12	218	7705450207711906	C:/Projects/SudokuSolver/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/SudokuSolver_autogen/mocs_compilation.cpp	6621cdd51a7e7c4b
+3511	4005	7705450242708358	SudokuSolver.exe	d5e9530d4e701109
